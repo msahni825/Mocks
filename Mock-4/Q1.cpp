@@ -28,7 +28,6 @@ void dfs(vector<vector<int>>& grid, int row, int col){
 }
 int getNumberOfIslands(const vector<vector<int>>& binaryMatrix) 
 {
-  // your code goes here
   vector<vector<int>> grid = binaryMatrix;
   int row=grid.size();
   int col=grid[0].size();
